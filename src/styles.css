@@ -19,12 +19,12 @@ body {
   padding: 20px;
   font-family: Arial;
   border-radius: 50px;
-  height: 75vh;
-  width: 50vw;
+  height: 90vh;
+  width: 80vw; 
 }
 
 .risk-calculator-container h2 {
-  font-size: 30px;
+  font-size: 3rem;
   opacity: 1;
   color: #fff7f1;
   font-weight: bolder;
@@ -41,6 +41,7 @@ body {
 
 .risk-calculator-container label {
   font-size: 15px;
+  font-size: 2rem;
   opacity: 1;
   font-weight: bold;
 }
@@ -48,8 +49,8 @@ body {
 .risk-calculator-container input {
   opacity: 1;
   margin-top: 5px;
-  width: 200px;
-  height: 30px;
+  width: 25rem;
+  height: 3rem;
   border-radius: 10px;
   border: 2px solid gray;
   font-size: large;
@@ -64,31 +65,7 @@ body {
   margin-top: 20px;
   font-weight: bold;
   border-radius: 10px;
-  height: 40px;
-}
-
-@media (max-width: 768px) {
-  .risk-calculator-container {
-    height: 90vh; /* 手机屏幕时的高度 */
-    width: 80vw; /* 手机屏幕时的宽度 */
-  }
-
-  .risk-calculator-container label {
-    font-size: 2rem;
-  }
-
-  .risk-calculator-container input {
-    width: 25rem;
-    height: 3rem;
-  }
-
-  .risk-calculator-container button {
-    width: 15rem;
-    height: 5rem;
-    font-size: 1rem;
-  }
-
-  .risk-calculator-container h2 {
-    font-size: 3rem;
-  }
+  width: 15rem;
+  height: 5rem;
+  font-size: 1rem;
 }
