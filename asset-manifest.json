@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/contract-calculator/static/js/main.638c44b2.js",
+    "main.css": "/contract-calculator/static/css/main.da0d7bbd.css",
+    "main.js": "/contract-calculator/static/js/main.f0c9d07a.js",
     "index.html": "/contract-calculator/index.html",
-    "main.638c44b2.js.map": "/contract-calculator/static/js/main.638c44b2.js.map"
+    "main.da0d7bbd.css.map": "/contract-calculator/static/css/main.da0d7bbd.css.map",
+    "main.f0c9d07a.js.map": "/contract-calculator/static/js/main.f0c9d07a.js.map"
   },
   "entrypoints": [
-    "static/js/main.638c44b2.js"
+    "static/css/main.da0d7bbd.css",
+    "static/js/main.f0c9d07a.js"
   ]
 }
