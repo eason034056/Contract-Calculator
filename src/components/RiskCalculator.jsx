@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function RiskCalculator() {
-  const [riskPercentage, setRiskPercentage] = useState(3);
+  const [riskPercentage, setRiskPercentage] = useState(2);
   const [principal, setPrincipal] = useState("");
   const [entryPrice, setEntryPrice] = useState("");
   const [stopLossPrice, setStopLossPrice] = useState("");
