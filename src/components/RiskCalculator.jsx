@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../styles.css";
 
 function RiskCalculator() {
   const [riskPercentage, setRiskPercentage] = useState(2);
@@ -11,7 +12,7 @@ function RiskCalculator() {
     const stopLossPercentage =
       Math.abs(entryPrice - stopLossPrice) / entryPrice;
     const calculatedOrderValue =
-      principal * (stopLossPercentage / (riskPercentage / 100));
+      principal * ( (riskPercentage / 100) / stopLossPercentage);
     setOrderValue(calculatedOrderValue);
   };
 
