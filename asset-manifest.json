@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/contract-calculator/static/js/main.5614e3d5.js",
+    "index.html": "/contract-calculator/index.html",
+    "main.5614e3d5.js.map": "/contract-calculator/static/js/main.5614e3d5.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.5614e3d5.js"
+  ]
+}
