@@ -1,7 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../styles.css";
 
 function RiskCalculator() {
+  useEffect(() => {
+    document.body.style.overflow = 'hidden';
+
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, []);
+
   const [riskPercentage, setRiskPercentage] = useState(2);
   const [principal, setPrincipal] = useState("");
   const [entryPrice, setEntryPrice] = useState("");
@@ -60,7 +68,7 @@ function RiskCalculator() {
         </button>
       </div>
       {orderValue !== null && (
-        <div>
+        <div className="order-value">
           <h3>Order Value: {orderValue.toFixed(2)}</h3>
         </div>
       )}

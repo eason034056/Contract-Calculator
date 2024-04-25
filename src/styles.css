@@ -21,6 +21,7 @@ body {
   border-radius: 50px;
   height: 90vh;
   width: 80vw; 
+  max-width: 800px;
 }
 
 .risk-calculator-container h2 {
@@ -28,6 +29,7 @@ body {
   opacity: 1;
   color: #fff7f1;
   font-weight: bolder;
+  height: 5%;
 }
 
 .risk-calculator-container div {
@@ -61,6 +63,7 @@ body {
 
 .risk-calculator-container button {
   color: #fff7f1;
+  background-color:#535c91;
   align-self: center;
   margin-top: 20px;
   font-weight: bold;
@@ -68,4 +71,15 @@ body {
   width: 15rem;
   height: 5rem;
   font-size: 1rem;
+}
+
+.risk-calculator-container button:hover {
+  color: black;
+  background-color: aliceblue;
+}
+
+
+
+.order-value {
+  font-size: 1.5rem;
 }
