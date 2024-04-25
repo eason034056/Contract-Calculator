@@ -19,9 +19,8 @@ body {
   padding: 20px;
   font-family: Arial;
   border-radius: 50px;
-  height: 90vh;
-  width: 80vw; 
-  max-width: 500px;
+  height: 800px;
+  max-width: 800px;
 }
 
 .risk-calculator-container h2 {
