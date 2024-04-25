@@ -19,12 +19,13 @@ body {
   padding: 20px;
   font-family: Arial;
   border-radius: 50px;
-  height: 900px;
+  height: 90%;
+  max-height: 1200px;
   width: 600px;
 }
 
 .risk-calculator-container h2 {
-  font-size: 3rem;
+  font-size: 4rem;
   opacity: 1;
   color: #fff7f1;
   font-weight: bolder;
@@ -59,6 +60,7 @@ body {
   font-weight: bold;
   color: #1b1a55;
   padding-left: 10px;
+  font-size: 30px;
 }
 
 .risk-calculator-container button {
@@ -80,6 +82,7 @@ body {
 
 
 
-.order-value {
-  font-size: 1.5rem;
+.risk-calculator-container h3 {
+  font-size: 2rem;
+  color: white;
 }

@@ -68,9 +68,7 @@ function RiskCalculator() {
         </button>
       </div>
       {orderValue !== null && (
-        <div className="order-value">
           <h3>Order Value: {orderValue.toFixed(2)}</h3>
-        </div>
       )}
     </div>
   );
